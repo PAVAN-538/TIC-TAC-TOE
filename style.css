@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: #1f1f1f;
+   text-align: center;
+}
+
+.heading {
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.game {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+   width: 60vmin;
+   
+   
+}
+
+.box {
+    height: 20vmin;
+    width: 20vmin;
+    font-size: 4.5rem;
+    border-radius: 10px;
+    
+}
+
+.reset-btn {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: aliceblue;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.winner {
+    background-color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: none;
+    padding: 20px;
+}
+
